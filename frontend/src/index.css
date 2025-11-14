@@ -1,3 +1,21 @@
 
 @import "tailwindcss";
+@tailwind utilities;
 
+
+
+@theme {
+  /* Fonts */
+  --font-title: "Playfair Display", serif;
+  --font-description: "Poppins", sans-serif;
+
+  /* Colors */
+  --color-bg-light: #ffffff;
+  --color-bg-dark: #0f0f0f;
+  --color-text-title: #ffffff;
+  --color-text-description: #9ca3af;
+  --color-primary: #093484;
+
+  /* Other utility variables (optional) */
+  --radius-default: 0.5rem;
+}
